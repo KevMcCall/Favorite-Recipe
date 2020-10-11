@@ -22,6 +22,7 @@
 </head>
 
 <body>
+
     <header>
     <div class="container-fluid">
         <div class="row">
@@ -69,13 +70,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-8">
-                <h3 class="text-center">
-                    <hr>
-                    Pork Sisig
-                </h3>
+            <div class="col-12 recipestart">
+                <hr>
+                <h3 class="text-center">Pork Sisig</h3>
                 <p class="text-center text-muted">This is a recipe for Sisig</p>
-                <ul>
+                <ul id="recipeinfo">
                     <li class="list-item list-inline-item">
                         | <b>Course:</b> Main Course |
                     </li>
@@ -99,15 +98,11 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-4">
-            <img src="images/porksisig1.jpg" alt="porksisig" height="250px" width="250px" />
-            </div>
         </div>
+        <!--Ingredients Start-->
         <div class="row">
-            <div class="col-12">
-                <h3 class="text-left">
-                    Ingredients
-                </h3>
+            <div class="col-4 ingredientlist">
+                <h3 class="ingredients">Ingredients</h3>
                 <ul>
                     <li class="list-item">
                         1 lb. pig ears
@@ -155,8 +150,16 @@
                         1 egg (optional)
                     </li>
                 </ul>
+                
+            </div>
+            <div class="col-8">
+            <img src="images/porksisig3.jpg"  alt="porksisig" height="400" width="670">
+            </div>
+            </div>
+            <hr>
+                <!--Instructions Start-->
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 instructions">
                         <h3>Instructions</h3>
                         <ol>
                             <li class="list-item">
@@ -207,10 +210,11 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <!--Nutrition Start-->
+        <div class="row justifty-content-center">
             <div class="col-12">
-                <h3>Nutrition</h3>
-                <ul class="list-unstyled">
+                <h3 class="text-center">Nutrition</h3>
+                <ul class="list-unstyled text-center">
                     <li class="list-item list-inline-item">
                         <b>Serving:</b> 6g |
                     </li>
@@ -248,8 +252,9 @@
                 </ul>
             </div>
         </div>
+        <!--How To Cook Video Start-->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 recipevideo">
                 <h3>How to Cook Sisig</h3>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/bS5wxM0vTec" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -257,6 +262,7 @@
             </div>
         </div>
         </main>
+        <!--Footer Start-->
         <div class="row">
             <div class="col-12">
                 <h3>
@@ -265,16 +271,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
 
 
 

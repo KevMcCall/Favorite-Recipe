@@ -1,12 +1,35 @@
-header {
-    background-color: white;
+html, body {
+    overflow-x: hidden;
 }
 
 
-
-main {
+/*Background for Body*/
+body {
     background-image: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&w=1000&q=80);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#recipeinfo {
+    text-align: center;
+}
+
+
+.ingredientlist {
+    text-align: justify;
+    left: 55px;
+    
+}
+
+.instructions {
+    left: 40px;
+    top: 20px;
+}
+
+.recipestart {
+    bottom: 20px;
+}
+
+.recipevideo {
+    text-align: center;
+}
