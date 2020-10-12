@@ -8,7 +8,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: auto auto;
     background-position: center;
-    border-bottom: solid black 3px;
+    border-bottom: solid blue 4px;
 }
 
 
@@ -101,6 +101,15 @@ h1 {
 .nav-item a:hover {
     color: red;  
 }
+
+/*Footer*/
+footer {
+    background-color: black;
+    color: white;
+    border-top: solid 4px red;
+}
+
+
 
 /*Animation*/
 
