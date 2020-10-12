@@ -145,7 +145,7 @@ footer {
    blink-caret .75s step-end infinite;
     animation-duration: 5s;
     animation-iteration-count: 2;
-    animation-delay: 2s;
+    animation-delay: 0s;
 }
 
 
