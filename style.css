@@ -2,34 +2,60 @@ html, body {
     overflow-x: hidden;
 }
 
+/*Nav Background*/
+.header-background {
+    background-image: url(images/philippineflag.png);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: center;
+}
 
-/*Background for Body*/
-body {
-    background-image: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&w=1000&q=80);
+
+/*Background for Main*/
+main {
+    background-image: url(images/woodbackground2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/*Align UL Items*/
 #recipeinfo {
     text-align: center;
 }
 
-
+/*Recipe Ingredient List*/
 .ingredientlist {
     text-align: justify;
     left: 55px;
     
 }
-
+/*Recipe Instructions*/
 .instructions {
     left: 40px;
     top: 20px;
 }
 
+/* Recipe Info*/
 .recipestart {
-    bottom: 20px;
+    bottom: 5px;
 }
 
+/*Recipe Video*/
 .recipevideo {
     text-align: center;
+}
+
+/*Sisig Origin Section*/
+.origin {
+    top: 20px;
+    
+}
+
+.origin p {
+    padding: 10px;
+}
+
+/*H1 Title Positioning*/
+h1 {
+    padding-left: 320px;
 }
