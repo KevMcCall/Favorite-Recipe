@@ -24,16 +24,17 @@ main {
     border: solid black 3px;
     transition-property: transform;
     transition-duration: 3s;
+    transition-delay: 2s;
     
 }
 
 /*Image Transition*/
 #sisigplate:hover {
-    
     background-color: black;
-    transform: skewy(15deg);
-    transform: skewx(10deg);
-    transform: translateX(-50px);
+    transform: skewX(15deg);
+    transform: skewY(15deg);
+    transform: translateX(-60px);
+    transition-timing-function: linear;
 }
 
 /*H1 Title*/
@@ -51,7 +52,25 @@ h1 {
         text-align: left;
         width: 40%;
         position: relative;
-        left: 30%; 
+        left: 30%;
+        
+}
+
+.ingredientlist {
+    transition: transform 5s;
+    transition-timing-function: linear;
+    
+    
+    
+
+}
+
+.ingredientlist:hover {
+    
+    transform: scale(1.5);
+    position: relative;
+    background-color: white;
+    
 }
 
 
@@ -124,6 +143,9 @@ footer {
    /* letter-spacing: */
    animation: typing 5s steps(100, end),
    blink-caret .75s step-end infinite;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
 }
 
 
