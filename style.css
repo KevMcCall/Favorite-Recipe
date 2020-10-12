@@ -8,6 +8,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: auto auto;
     background-position: center;
+    border-bottom: solid black 3px;
 }
 
 
@@ -18,17 +19,32 @@ main {
     background-size: cover;
 }
 
+/* Dish Image*/
+#sisigplate {
+    border: solid black 3px;
+    
+}
+
+/*H1 Title*/
+h1 {
+    font-family: cursive;
+}
+
 /*Align UL Items*/
 #recipeinfo {
     text-align: center;
 }
 
-/*Recipe Ingredient List*/
-.ingredientlist {
-    text-align: justify;
-    left: 55px;
-    
+/*Recipe Ingredient UL*/
+.ingredientlist ul, h3 {
+        text-align: left;
+        width: 40%;
+        position: relative;
+        left: 30%; 
 }
+
+
+
 /*Recipe Instructions*/
 .instructions {
     left: 40px;
@@ -49,6 +65,16 @@ main {
 .origin {
     top: 20px;
     
+}
+
+/*Origin H2 Font*/
+.origin h2 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+/* Ingredient, Instruction, and Nutrition Font*/
+.recipe {
+    font-family: 'Acme', sans-serif;
 }
 
 .origin p {
