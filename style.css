@@ -22,7 +22,18 @@ main {
 /* Dish Image*/
 #sisigplate {
     border: solid black 3px;
+    transition-property: transform;
+    transition-duration: 3s;
     
+}
+
+/*Image Transition*/
+#sisigplate:hover {
+    
+    background-color: black;
+    transform: skewy(15deg);
+    transform: skewx(10deg);
+    transform: translateX(-50px);
 }
 
 /*H1 Title*/
@@ -42,7 +53,6 @@ h1 {
         position: relative;
         left: 30%; 
 }
-
 
 
 /*Recipe Instructions*/
@@ -84,4 +94,39 @@ h1 {
 /*H1 Title Positioning*/
 h1 {
     padding-left: 320px;
+    
+    
+}
+
+.nav-item a:hover {
+    color: red;  
+}
+
+/*Animation*/
+
+.typewriter {
+    width: auto;
+    display: inline-block;
+    color: black;
+    overflow: hidden;
+    border-right: .15em solid yellow;
+    white-space: nowrap;
+    margin: 0 auto;
+   /* letter-spacing: */
+   animation: typing 5s steps(100, end),
+   blink-caret .75s step-end infinite;
+}
+
+
+/*Typing Effect*/
+@keyframes typing {
+    
+    from {max-width: 0}
+    to {max-width: 100%}
+}
+
+/*Cursor Effect*/
+@keyframes blink-caret {
+    from, to {border-color: transparent}
+    50% {border-color: yellow}
 }
