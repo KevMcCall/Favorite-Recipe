@@ -3,6 +3,7 @@ html, body {
 }
 
 /*Nav Background*/
+
 .header-background {
     background-image: url(images/philippineflag.png);
     background-repeat: no-repeat;
@@ -11,8 +12,12 @@ html, body {
     border-bottom: solid blue 4px;
 }
 
+.btn {
+    margin-bottom: 5px;
+}
 
 /*Background for Main*/
+
 main {
     background-image: url(images/woodbackground2.jpeg);
     background-repeat: no-repeat;
@@ -20,15 +25,16 @@ main {
 }
 
 /* Dish Image*/
+
 #sisigplate {
     border: solid black 3px;
     transition-property: transform;
     transition-duration: 3s;
     transition-delay: 2s;
-    
 }
 
 /*Image Transition*/
+
 #sisigplate:hover {
     background-color: black;
     transform: skewX(15deg);
@@ -38,52 +44,59 @@ main {
 }
 
 /*H1 Title*/
+
 h1 {
     font-family: cursive;
 }
 
 /*Align UL Items*/
+
 #recipeinfo {
     text-align: center;
 }
 
 /*Recipe Ingredient UL*/
+
 .ingredientlist ul, h3 {
-        text-align: left;
-        width: 40%;
-        position: relative;
-        left: 30%;
-        
+    text-align: left;
+    width: 40%;
+    position: relative;
+    left: 30%;
 }
 
 /*Recipe Instructions*/
+
 .instructions {
     left: 40px;
     top: 20px;
 }
 
 /* Recipe Info*/
+
 .recipestart {
     bottom: 5px;
 }
 
 /*Recipe Video*/
+
 .recipevideo {
     text-align: center;
 }
 
 /*Sisig Origin Section*/
+
 .origin {
     top: 20px;
-    
 }
 
 /*Origin H2 Font*/
+
 .origin h2 {
     font-family: 'Kaushan Script', cursive;
 }
 
 /* Ingredient, Instruction, and Nutrition Font*/
+
 .recipe {
     font-family: 'Acme', sans-serif;
 }
@@ -93,24 +106,22 @@ h1 {
 }
 
 /*H1 Title Positioning*/
+
 h1 {
     padding-left: 320px;
-    
-    
 }
 
 .nav-item a:hover {
-    color: red;  
+    color: red;
 }
 
 /*Footer*/
+
 footer {
     background-color: black;
     color: white;
     border-top: solid 4px red;
 }
-
-
 
 /*Animation*/
 
@@ -122,24 +133,34 @@ footer {
     border-right: .15em solid yellow;
     white-space: nowrap;
     margin: 0 auto;
-   /* letter-spacing: */
-   animation: typing 5s steps(100, end),
-   blink-caret .75s step-end infinite;
-    animation-duration: 5s;
+    /*--letter-spacing: .10em*/
+    animation: 
+    typing 4.5s steps(70, end),
+    blink-caret .5s step-end infinite;
+    /*Disabled: This removes blinking cursor effect
+    animation-duration: 6s;
     animation-iteration-count: 2;
-    animation-delay: 0s;
+    animation-delay: 0s;*/
 }
 
-
 /*Typing Effect*/
+
 @keyframes typing {
-    
-    from {max-width: 0}
-    to {max-width: 100%}
+    from {
+        max-width: 0
+    }
+    to {
+        max-width: 100%
+    }
 }
 
 /*Cursor Effect*/
+
 @keyframes blink-caret {
-    from, to {border-color: transparent}
-    50% {border-color: yellow}
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: yellow
+    }
 }
